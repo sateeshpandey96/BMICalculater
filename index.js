@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const PORT = process.env.port || 3001;
+const PORT = process.env.port || 8000
 const app = express();
 const measurements = require('./api/routes/measurements');
 
